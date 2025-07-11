@@ -1,0 +1,11 @@
+{
+  "context_servers": {
+    "workspace-context": {
+      "settings": {
+        "server_path": "/Users/macbook/Coding/workspace/target/release/workspace",
+        "workspace_path": "/Users/macbook/Coding/workspace",
+        "debug": false
+      }
+    }
+  }
+}

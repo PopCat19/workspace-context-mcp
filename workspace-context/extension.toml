@@ -1,0 +1,16 @@
+id = "workspace-context"
+name = "Workspace Context Server"
+description = "Model Context Protocol Server for Workspace Context. Get the context of your workspace, including files, directories and even functions, classes, and more."
+version = "0.1.0"
+schema_version = 1
+authors = "sec.junqueira@gmail.com"
+repository = "https://github.com/junque1r4/workspace-context-mcp"
+
+[context_servers.workspace-context]
+name = "Workspace Context Server"
+
+[context_servers.workspace-context.settings]
+server_path = { description = "Path to the workspace context server binary", type = "string" }
+args = { description = "Arguments to pass to the server", type = "array", items = { type = "string" }, default = [
+] }
+env = { description = "Environment variables", type = "object", default = {} }
